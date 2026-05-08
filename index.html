@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mihir Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(20, 20, 66);
+            color: white;
+            font-family: "Roboto Condensed", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: rgb(10, 10, 59);
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: blueviolet;
+            font-size: 1.1rem;
+
+        }
+
+        main hr {
+
+            width: 100%;
+            border: 1px solid purple;
+            margin: 20px 0;
+
+
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstSection {
+            display: felx;
+            justify-content: space-around;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2.9rem;
+        }
+
+        .rightSection {
+            width: 80%;
+            margin-left: 100px 0;
+        }
+
+        .text-purple {
+            color: blueviolet;
+        }
+
+        #element {
+            color: rgb(249, 229, 2);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        .secondSection {
+            font-size: 1.1rem;
+        }
+
+        .secondSection {
+            margin-bottom: 100px;
+        }
+
+        .footer {
+            background-color: rgb(10, 10, 49);
+            height: 250px;
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 20px;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer ul a {
+            color: gray;
+        }
+
+        .thirdSection {
+            text-align: center;
+            font-size: 1.2rem;
+        }
+
+        .thirdSection {
+            margin-bottom: 200px;
+        }
+
+        h3 {
+            color: blueviolet;
+        }
+
+        .section-line {
+            width: 100%;
+            border: 1px solid purple;
+            margin: 20px 0;
+        }
+
+        .thirdSection {
+            max-width: 100vw;
+            padding: 0 118px;
+        }
+
+        .fourthSection {
+            text-align: center;
+            font-size: 1.2rem;
+
+        }
+
+        .fourthSection {
+            margin-bottom: 150px;
+            max-width: 100vw;
+            padding: 0 118px;
+        }
+
+        .qualification-section {
+            text-align: center;
+            color: #fff;
+            padding: 60px 0;
+        }
+
+        .qualification-container {
+            width: 80%;
+            margin: auto;
+        }
+
+        .qualification {
+            margin-bottom: 30px;
+            border-bottom: 1px solid #6a0dad;
+            padding-bottom: 15px;
+        }
+
+        .qualification h3 {
+            color: #c084fc;
+            font-weight: 600;
+        }
+
+        .qualification p {
+            color: #b3b3b3;
+        }
+
+        .section-line {
+            border: none;
+            height: 2px;
+            background-color: #6a0dad;
+            width: 80%;
+            margin: 0 auto 20px;
+        }
+
+        .skills-section {
+            text-align: center;
+            color: #fff;
+            padding: 60px 0;
+        }
+
+        .skills-container {
+            width: 80%;
+            margin: auto;
+        }
+
+        .skill {
+            margin-bottom: 30px;
+            border-bottom: 1px solid #6a0dad;
+            padding-bottom: 15px;
+        }
+
+        .skill h3 {
+            color: #c084fc;
+            font-weight: 600;
+        }
+
+        .skill p {
+            color: #b3b3b3;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #0d0d2b;
+            padding: 15px 60px;
+        }
+
+        nav h1 {
+            color: #c084fc;
+            font-size: 1.5rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #c084fc;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Mihir's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi, My name is <span class="text-purple">Mihir</span>
+                <span id="element"></span>
+            </div>
+            <span id="element"></span>
+
+            <div class="rightSection">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.qFiKKyQs3ZmBfwfCsncLjAHaFY?rs=1&pid=ImgDetMain&o=7&rm=3"
+                    alt="">
+            </div>
+
+        </section>
+
+        <section class="secondSection">
+            <hr>
+            <h1>About Me</h1>
+            <p>
+                Hi, I am a B.TECH student pursuing IT engineering from MIT AOE college,Pune.Currently in First
+                Year(FY).I have a strong interest in web development and am currently learning HTML,CSS,C++,PYTHON and
+                SQL.I am passionate about coding and artificial intelligence,and I aim to build real-world projects that
+                solve practical problems.I enjoy solving problems and continously learning new technologies.Apart from
+                academics,I love playing cricket and travelling,which helps me stay active and creative.
+            </p>
+
+        </section>
+
+        <section class="thirdSection">
+            <hr class="section-line">
+
+            <h1>Projects</h1><br>
+            <div class="project">
+                <h3>Build a Truss Model</h3>
+                <p>A structural engineering project demonstrating load distribution and stability using truss design
+                    principles.</p>
+            </div><br>
+            <div class="project">
+                <h3>Portfolio Website</h3>
+                <p>A responsive personal website built using HTML, CSS.</p>
+            </div><br>
+            <div class="project">
+                <h3>CT Soil Collector Application using Arduino</h3>
+                <p>An IoT‑based system designed to collect and analyze soil data for agricultural fieldwork using
+                    Arduino sensors.</p>
+            </div><br>
+            <div class="project">
+                <h3>DEE Lock System</h3>
+                <p>A smart security prototype integrating digital encryption and electronic locking mechanisms for
+                    enhanced safety.</p>
+            </div>
+        </section>
+
+
+
+        <section class="fourthSection">
+            <hr>
+            <h1>Certificates</h1>
+            <div class="certificates-container">
+                <div class="certificate">
+                    <a href="Cisco certificate-1.jpg" target="_blank">Cisco Certificate-1</a>
+                </div>
+                <div class="certificate">
+                    <a href="Cisco certificate-2.jpg" target="_blank">Cisco certificate-2</a>
+
+
+                </div>
+                <div class="certificate">
+                    <a href="IBM CME certificate.jpg" target="_blank">IBM Career Management Essential</a>
+
+
+                </div>
+                <div class="certificate">
+                    <a href="IBM DV certificate.jpg" target="_blank">IBM Data Visualization Certificate</a>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section class="qualification-section">
+            <hr class="section-line">
+            <h1>Past Qualifications</h1>
+            <div class="qualification-container">
+                <div class="qualification">
+                    <h3>Bachelor of Engineering – MIT Academy of Engineering,Pune</h3>
+                    <p>Information Technology, 2025–2029</p>
+                </div>
+                <div class="qualification">
+                    <h3>Higher Secondary Education – Nowrosjee Wadia College,Pune</h3>
+                    <p>Science Stream, 2023–2025</p>
+                </div>
+                <div class="qualification">
+                    <h3>Secondary Education – J.N.Petit Technical High School,Pune</h3>
+                    <p>Completed with distinction, 2023</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills-section">
+            <hr class="section-line">
+            <h1>Skills</h1>
+            <div class="skills-container">
+                <div class="skill">
+                    <h3>Programming Languages</h3>
+                    <p>Python, C++, SQL, HTML, CSS</p>
+                </div>
+                <div class="skill">
+                    <h3>Frameworks & Tools</h3>
+                    <p>React, VS Code, GitHub</p>
+                </div>
+                <div class="skill">
+                    <h3>Soft Skills</h3>
+                    <p>Problem Solving, Team Collaboration, Project Management</p>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h2>Mihir's Portfolio</h2>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="home.html">Home</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li><a href="mailto:mihir@gmail.com">E-mail</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['I am a B.TECH Student.', 'Pursing IT Engineering.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+
+
+
+</body>
+
+</html>

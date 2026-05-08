@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Mihir's Portfolio</title>
+    <style>
+        body {
+            background-color: #0d0d2b;
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation Bar */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #141445;
+            padding: 15px 60px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #c084fc;
+        }
+
+
+        .home-section {
+            text-align: center;
+            padding: 80px 60px;
+        }
+
+        .home-section h1 {
+            font-size: 2.5rem;
+            color: #c084fc;
+            margin-bottom: 20px;
+        }
+
+        .home-section p {
+            font-size: 1.1rem;
+            color: #b3b3b3;
+            max-width: 700px;
+            margin: 0 auto 20px;
+            line-height: 1.6;
+        }
+
+        .skills {
+            margin-top: 40px;
+        }
+
+        .skills h3 {
+            color: #c084fc;
+            margin-bottom: 15px;
+        }
+
+        .skills ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .skills ul li {
+            background-color: #141445;
+            padding: 10px 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(192, 132, 252, 0.3);
+            font-weight: 500;
+        }
+
+
+        .back-home {
+            color: #ff0000;
+            text-decoration: none;
+            font-weight: 500;
+            display: block;
+            text-align: center;
+            margin: 40px auto;
+            width: fit-content;
+        }
+
+        .back-home:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h1>Portfolio</h1>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="home-section">
+        <h1>Welcome to My Portfolio</h1>
+        <p>
+            Hi, I’m Mihir — pursuing B.Tech in Information Technology from MIT Academy of Engineering, Pune.
+            I’m passionate about web development, IoT, and cloud computing. I love building creative and functional
+            projects that solve real-world problems.
+        </p>
+        <p>
+            This portfolio showcases my journey through technology — from designing responsive websites to developing
+            IoT systems and AI-based applications.
+            Each project reflects my curiosity, dedication, and desire to learn something new every day.
+        </p>
+
+        <div class="skills">
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>IoT (ESP‑32, Sensors)</li>
+                <li>Cloud Computing</li>
+                <li>AI & Machine Learning</li>
+            </ul>
+        </div>
+
+        <p>
+            I believe technology is not just about code — it’s about creativity, problem-solving, and making life
+            smarter.
+            Explore my projects to see how I combine innovation with functionality.
+        </p>
+
+        <footer>
+            <a href="index.html" class="back-home">← Back to Home</a>
+        </footer>
+    </section>
+</body>
+
+</html>

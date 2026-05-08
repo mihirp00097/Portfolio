@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Mihir's Portfolio</title>
+    <style>
+        body {
+            background-color: #0d0d2b;
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #141445;
+            padding: 15px 60px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #c084fc;
+        }
+
+        .projects-section {
+            padding: 60px 80px;
+            text-align: center;
+        }
+
+        .projects-section h2 {
+            color: #c084fc;
+            font-size: 2rem;
+            margin-bottom: 40px;
+        }
+
+        .project-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        .project-card {
+            background-color: #141445;
+            border-radius: 10px;
+            padding: 20px;
+            width: 280px;
+            box-shadow: 0 0 20px rgba(192, 132, 252, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .project-card h3 {
+            color: #c084fc;
+            margin-bottom: 10px;
+        }
+
+        .project-card p {
+            color: #b3b3b3;
+            font-size: 0.95rem;
+        }
+
+        .back-home {
+            color: #ff0000;
+            text-decoration: none;
+            font-weight: 500;
+            display: block;
+            text-align: center;
+            margin: 40px auto;
+            width: fit-content;
+        }
+
+        .back-home:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h1>Mihir's Portfolio</h1>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <section class="projects-section">
+        <h2>My Projects</h2>
+        <div class="project-list">
+            <div class="project-card">
+                <h3>Build a Truss Model</h3>
+                <p>Designed and simulated a truss structure using engineering principles to analyze load distribution
+                    and material strength.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Dee Lock System</h3>
+                <p>Developed a smart locking system integrating sensors and microcontrollers for enhanced home and lab
+                    security.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Soil Collector Application for Drone using ESP‑32</h3>
+                <p>Created an IoT‑based drone attachment using ESP‑32 to collect soil samples and transmit data for
+                    agricultural analysis.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>A responsive personal website built using HTML, CSS.</p>
+            </div>
+        </div>
+
+        <footer>
+            <a href="index.html" class="back-home">← Back to Home</a>
+        </footer>
+    </section>
+</body>
+
+</html>

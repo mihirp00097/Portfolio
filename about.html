@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Mihir's Portfolio</title>
+    <style>
+        body {
+            background-color: #0d0d2b;
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #141445;
+            padding: 15px 60px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #c084fc;
+        }
+
+        .about-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 60px 80px;
+        }
+
+        .text-content {
+            flex: 1;
+            max-width: 45%;
+            margin-left: 80px;
+        }
+
+        .image-content {
+            flex: 1;
+            text-align: right;
+        }
+
+        .image-content img {
+            width: 380px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(192, 132, 252, 0.4);
+            margin-top: 100px;
+            margin-right: 60px;
+        }
+
+        .back-home {
+            color: #ff0000;
+            text-decoration: none;
+            font-weight: 500;
+            display: block;
+            text-align: center;
+            margin: 40px auto;
+            width: fit-content;
+        }
+
+        .back-home:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h1>Mihir's Portfolio</h1>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="about-content">
+            <div class="text-content">
+                <h2>About Me</h2>
+                <p>Hi, I'm Mihir — a B.Tech IT student at MIT Academy of Engineering, Pune. I’m passionate about
+                    technology, creativity, and solving real‑world problems through code.</p>
+                <p>My journey began with curiosity — experimenting with small projects and learning how software can
+                    make life smarter. Over time, I’ve developed skills in web development, IoT, and cloud computing.
+                </p>
+                <p>I enjoy working on projects that challenge me to think differently and push boundaries. Whether it’s
+                    designing a clean web interface or integrating sensors with microcontrollers, I’m always excited to
+                    learn something new.</p>
+                <p>Outside of coding, I’m a cricket enthusiast and love discovering new gadgets. I believe creativity
+                    and technology go hand in hand — and every project is a chance to grow and innovate.</p>
+            </div>
+
+            <div class="image-content">
+                <img src="https://t3.ftcdn.net/jpg/03/12/00/38/360_F_312003832_T2hmgMlJOnDYcDjKybmtyRL0k5taIetb.jpg"
+                    alt="About me">
+            </div>
+        </div>
+
+        <footer>
+            <a href="index.html" class="back-home">← Back to Home</a>
+        </footer>
+    </section>
+</body>
+
+</html>
